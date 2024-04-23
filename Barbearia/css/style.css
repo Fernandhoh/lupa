@@ -1,0 +1,195 @@
+/*reset do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*cabeçalho*/
+header{
+    background-color: rgba(0, 0, 0, 0.247);    height: 70px; /*altura*/
+    width: 100%;   /*largura*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+   
+}
+
+a:hover{
+    color: rgb(0, 255, 0);
+    font-size: 1.2em;
+    
+    
+}
+
+header::first-letter{
+    display: none;
+}
+
+/*espaço entre elementos do cabeçalho*/
+header a{
+    margin-right: 40px;
+}
+
+/*cabeçalho*/
+nav ul li a {
+   /*espaçamento entre itens do cabeçalho*/
+    align-items: center;
+    text-transform: uppercase; /*tudo maiusculo*/
+    font-weight: bold; /*negrito*/
+    color: bisque;
+    
+}
+
+
+
+.primeiroBloco{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    column-gap: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+
+    
+}
+
+.fotoInicio{
+    width: 300px;
+    height: 400px;
+}
+
+/*alinhamento preço incio da pagina*/
+ul{
+    display: inline-block;
+    vertical-align: top; 
+}
+
+
+
+
+.segundoBloco{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(70, 70, 70);
+
+}
+
+
+.caixaprincipal{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.card {
+    
+    margin: 10px;
+    position: relative;
+
+    
+}
+
+.caixaCards{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.fotoTrio{
+    width: 200px; 
+    height: 150px;
+}
+
+
+
+
+
+.fotoUltimaparte{
+    width: 500px;
+    height: 160px;
+    float: right;
+    padding: 10px;
+    
+    
+
+}
+
+
+
+/* interior da pelicula transparentes ultimas fotos*/
+
+    .precinho {
+        /*move a pelicula transparente*/
+        position: relative;
+        top: 100px;
+        left: 45px;
+      
+
+        /*dimensionamento da pelicula*/
+        width: 210px;
+        height: 140px;
+
+        display:flex;
+        align-items: flex-end; /*alinha texto na vertical inferior*/
+        justify-content: center; /*centraliza texto na horizontal*/
+    
+        font-size: 16px;
+        color: rgb(253, 6, 6);
+        background-color: rgba(15, 37, 78, 0.603); /* Fundo transparente */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.caixaroxapai{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    column-gap: 30px;
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+.imgPreços{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+   
+    color: white;
+    
+    
+}
+
+.preço{
+    width: 180px; 
+    height: 220px;
+}
+
+
+
